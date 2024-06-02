@@ -6,12 +6,13 @@
     <title>calculator</title>
     <style>
     .calculator-body{
-        height: 400px;
+        height: 300px;
         width: 450px;
         background-color: #3D3D5C;
         margin: 20px auto;
         border-radius: 10px;
         padding: 20px;
+        padding-top: 40px;
 
 
     }
@@ -26,6 +27,38 @@
 
     }
     .button-container{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    
+
+    
+    
+        
+
+        
+
+    }
+    .btn{
+        width: 55px;
+        text-align: center;
+        padding: 2px 0;
+        font-size: 20px;
+        margin: 3px;
+        border: 1px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+        
+
+    }
+    .btn1{
+        background-color: #ff6348;
+        height: 70px;
+        color: white;
+
 
     }
     
@@ -35,11 +68,27 @@
    <div class="calculator-body">
     <input type="text" value="0" class="display">
     <div class="button-container">
-        <button>AC</button>
-        <button>7</button>
-        <button>4</button>
-        <button>1</button>
-        <button>0</button>
+        <button class="btn">AC</button>
+        <button class="btn">7</button>
+        <button class="btn">4</button>
+        <button class="btn">1</button>
+        <button class="btn">0</button>
+        <button class="btn">m+</button>
+        <button class="btn">8</button>
+        <button class="btn">2</button>
+        <button class="btn">5</button>
+        <button class="btn">#</button>
+        <button class="btn">9</button>
+        <button class="btn">6</button>
+        <button class="btn">3</button>
+        <button class="btn">.</button>
+        <button class="btn">%</button>
+        <button class="btn">+</button>
+        <button class="btn">-</button>
+        <button class="btn">*</button>
+        <button class="btn">/</button>
+        <button class="btn">#</button>
+        <button class="btn1">=</button>
     </div>
 
    </div> 
